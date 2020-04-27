@@ -1,5 +1,12 @@
 # React-Hooks-Redux---User-Registration
 
+- Kullanıcıdan e-posta ve şifre alınır.
+- Bu bilgilerle token isteğinde bulunulur. (API request gibi düşünülebilir.)
+- (uuid-token-generator) kütüphanesi kullanılarak token oluşturulur.
+- Token store'a kaydedilir. (Async-Storage)
+ Girişte token kontrol edilir.
+- Eğer token varsa uygulama "Home Screen"'e yönlendirilir.
+- Token yoksa "Login Screen"'e yönlendirilir.
 
 ### Running the project
 
